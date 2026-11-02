@@ -147,3 +147,18 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Datasets and derived data (never commit: see dataset license)
+*.csv
+*.parquet
+analysis/data/
+
+# Docker volumes
+pgdata/
